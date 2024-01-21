@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.one ul li {
+    text-decoration: none;
+    display: inline-flex;
+    margin-left: 10px;
+    padding: 20px;
+    
+}
+.one ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+.one ul{
+    margin-left:300px;
+    
+}
+.one{
+    background-color: rgb(222, 212, 212);
+    height: 60px;
+}
+/* body{
+    background-image: url(/images/yellow\ back.jpg);
+    
+} */
+.two{
+    background-image: url(/images/yellow\ back.jpg);
+    height: 300px;
+    
+    width: 100%;
+    transform:rotate(-0.5deg);
+    
+}
+/* .two {
+    transform:rotate(-1deg);
+} */
+.one ul li a:hover{
+    background-color: coral;
+    padding: 5px;
+    border-radius: 30px;
+}
+.one form{
+    margin-left: 850px;
+    margin-top: -40px;
+}
+form input{
+width: 300px;
+box-sizing: border-box;
+}
+i{
+    i {
+        position: absolute;
+        /* top: 50%;
+        right: 10px; */
+        /* transform: translateY(-50%); */
+        color: #000000; /* Adjust the color as needed */
+        /* cursor: pointer; */
+    }
+}
+form button{
+    width: 50px;
+    background-color: rgb(94, 197, 201);
+    margin-left: 10px;
+    
+}
+form button:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+.two{
+    text-align: center;
+    padding-top: 300px;
+}
+.two h1{
+    font-size:40px;
+}
+.two ul li{
+    display: inline-flex;
+    margin-left: 20px;
+}
+.two ul{
+    margin-left:-20px;
+}
+.two ul li a{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px;
+    color: orangered;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+.two ul li a:hover{
+    color:aliceblue;
+    background-color: orangered;
+}
+
